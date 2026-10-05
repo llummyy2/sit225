@@ -4,8 +4,8 @@ from arduino_iot_cloud import ArduinoCloudClient
 from dash import Dash, dcc, html, Input, Output, Patch
 import cv2
 
-DEVICE_ID = "97c3f2bc-b105-4e39-b311-68b5c0378936"
-SECRET_KEY = "n@jN9qwE7U!6@LWmJh8#m4qcz"
+DEVICE_ID = "secret"
+SECRET_KEY = "secret"
 
 Variables = ["x", "y", "z"]
 #using deque but drains the whole storage every cycle
